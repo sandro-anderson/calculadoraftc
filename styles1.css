@@ -181,6 +181,7 @@ input[type="checkbox"]:checked ~ .nome_equipe_config{
     background-color: var(--bg_collor_white);
   }
 .cabecalho{
+    color: var(--collor_base03);
     font-family: 'Spartan', sans-serif;
     text-align: center;
     background-color: var(--collor_base02);
@@ -319,6 +320,23 @@ input[type="checkbox"]:checked ~ .nome_equipe_config{
     border-radius: 10px;
     color: var(--collor_base01);
 }
+#coluna_imagens{
+    font-family: 'Spartan', sans-serif;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    margin: 0 auto;
+
+}
+#texto_com_link{
+    padding: 5px;
+    font-size: 12px;
+    background-color: #bea8a8b6;
+    border-radius: 12px;
+}
 @media (max-width: 600px)
 {
     body{
@@ -326,6 +344,5 @@ input[type="checkbox"]:checked ~ .nome_equipe_config{
         background-color: var(--collor_base01);
         position: relative;
     }
-    
   
 }
